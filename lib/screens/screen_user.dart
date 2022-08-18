@@ -67,7 +67,6 @@ class _ScreenUserState extends State<ScreenUser> {
                   builder: (context, snapshot) {
                     final list = snapshot.data;
                     if (list == null) return Container(color: Colors.grey);
-                    debugPrint(list.first.url);
                     return CarouselSlider(
                       items: list.map((e) => Image.network(
                           e.url,

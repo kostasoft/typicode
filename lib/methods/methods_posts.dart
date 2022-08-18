@@ -15,7 +15,6 @@ class MethodsPost {
       return [];
     }
     final list = (response.data as List<dynamic>?)?.map((e) => ModelPost.fromJson(e as Map<String, dynamic>)).toList();
-    debugPrint('list.length: ${list?.length}');
     return list ?? [];
   }
 }
