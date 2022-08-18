@@ -1,0 +1,36 @@
+name: typicode
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.5
+  json_annotation: ^4.6.0
+  json_serializable: ^6.3.1
+  carousel_slider: ^4.1.1
+  dio: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  build_runner: ^2.2.0
+
+flutter:
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true # Required. Must be set to true to activate the plugin. Default: false
+  arb_dir: lib/l10n
+  class_name: S # Optional. Sets the name for the generated localization class. Default: S
+  main_locale: en # Optional. Sets the main locale used for generating localization files.

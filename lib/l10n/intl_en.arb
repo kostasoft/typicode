@@ -1,0 +1,18 @@
+{
+  "@@locale": "en",
+  "posts": "Posts",
+  "name": "name",
+  "username": "username",
+  "email": "email",
+  "address": "address",
+  "street": "street",
+  "suite": "suite",
+  "city": "city",
+  "zipcode": "zipcode",
+  "geo": "geo",
+  "phone": "phone",
+  "website": "website",
+  "company": "company",
+  "catchPhrase": "catchPhrase",
+  "bs": "bs"
+}
