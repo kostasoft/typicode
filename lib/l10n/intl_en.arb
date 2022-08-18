@@ -14,5 +14,11 @@
   "website": "website",
   "company": "company",
   "catchPhrase": "catchPhrase",
-  "bs": "bs"
+  "bs": "bs",
+  "profile": "Profile",
+  "submit": "Submit",
+  "more_x_symbols": "at least {value} characters",
+  "wrong_email": "Invalid email format",
+  "saving_data": "Saving data",
+  "enter_phone_number": "Enter phone number"
 }

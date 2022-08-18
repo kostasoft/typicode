@@ -20,6 +20,8 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'ru';
 
+  static String m0(value) => "не менее ${value} символов";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "address": MessageLookupByLibrary.simpleMessage("адрес"),
@@ -28,14 +30,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "city": MessageLookupByLibrary.simpleMessage("город"),
         "company": MessageLookupByLibrary.simpleMessage("компания"),
         "email": MessageLookupByLibrary.simpleMessage("емайл"),
+        "enter_phone_number":
+            MessageLookupByLibrary.simpleMessage("Укажите номер телефона"),
         "geo": MessageLookupByLibrary.simpleMessage("геопозиция"),
+        "more_x_symbols": m0,
         "name": MessageLookupByLibrary.simpleMessage("имя"),
         "phone": MessageLookupByLibrary.simpleMessage("телефон"),
         "posts": MessageLookupByLibrary.simpleMessage("Посты"),
+        "profile": MessageLookupByLibrary.simpleMessage("Профиль"),
+        "saving_data": MessageLookupByLibrary.simpleMessage("Сохраняем данные"),
         "street": MessageLookupByLibrary.simpleMessage("улица"),
+        "submit": MessageLookupByLibrary.simpleMessage("Отправить"),
         "suite": MessageLookupByLibrary.simpleMessage("комплект"),
         "username": MessageLookupByLibrary.simpleMessage("ник"),
         "website": MessageLookupByLibrary.simpleMessage("вебсайт"),
+        "wrong_email":
+            MessageLookupByLibrary.simpleMessage("Неверный формат эл. почты"),
         "zipcode": MessageLookupByLibrary.simpleMessage("почтовый индекс")
       };
 }

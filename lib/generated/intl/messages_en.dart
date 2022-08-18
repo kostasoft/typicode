@@ -20,6 +20,8 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'en';
 
+  static String m0(value) => "at least ${value} characters";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "address": MessageLookupByLibrary.simpleMessage("address"),
@@ -28,14 +30,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "city": MessageLookupByLibrary.simpleMessage("city"),
         "company": MessageLookupByLibrary.simpleMessage("company"),
         "email": MessageLookupByLibrary.simpleMessage("email"),
+        "enter_phone_number":
+            MessageLookupByLibrary.simpleMessage("Enter phone number"),
         "geo": MessageLookupByLibrary.simpleMessage("geo"),
+        "more_x_symbols": m0,
         "name": MessageLookupByLibrary.simpleMessage("name"),
         "phone": MessageLookupByLibrary.simpleMessage("phone"),
         "posts": MessageLookupByLibrary.simpleMessage("Posts"),
+        "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+        "saving_data": MessageLookupByLibrary.simpleMessage("Saving data"),
         "street": MessageLookupByLibrary.simpleMessage("street"),
+        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suite": MessageLookupByLibrary.simpleMessage("suite"),
         "username": MessageLookupByLibrary.simpleMessage("username"),
         "website": MessageLookupByLibrary.simpleMessage("website"),
+        "wrong_email":
+            MessageLookupByLibrary.simpleMessage("Invalid email format"),
         "zipcode": MessageLookupByLibrary.simpleMessage("zipcode")
       };
 }

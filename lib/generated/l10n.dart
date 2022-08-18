@@ -199,6 +199,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Profile`
+  String get profile {
+    return Intl.message(
+      'Profile',
+      name: 'profile',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `at least {value} characters`
+  String more_x_symbols(Object value) {
+    return Intl.message(
+      'at least $value characters',
+      name: 'more_x_symbols',
+      desc: '',
+      args: [value],
+    );
+  }
+
+  /// `Invalid email format`
+  String get wrong_email {
+    return Intl.message(
+      'Invalid email format',
+      name: 'wrong_email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Saving data`
+  String get saving_data {
+    return Intl.message(
+      'Saving data',
+      name: 'saving_data',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter phone number`
+  String get enter_phone_number {
+    return Intl.message(
+      'Enter phone number',
+      name: 'enter_phone_number',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

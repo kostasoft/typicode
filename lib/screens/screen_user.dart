@@ -33,6 +33,12 @@ class _ScreenUserState extends State<ScreenUser> {
   }
 
   @override
+  void dispose() {
+    userNotifier.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: NestedScrollView(

@@ -14,5 +14,11 @@
   "website": "вебсайт",
   "company": "компания",
   "catchPhrase": "фраза",
-  "bs": "бс"
+  "bs": "бс",
+  "profile": "Профиль",
+  "submit": "Отправить",
+  "more_x_symbols": "не менее {value} символов",
+  "wrong_email": "Неверный формат эл. почты",
+  "saving_data": "Сохраняем данные",
+  "enter_phone_number": "Укажите номер телефона"
 }
